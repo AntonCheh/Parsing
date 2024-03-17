@@ -46,13 +46,12 @@ public class Station {
     @Override
     public String toString() {
         if (depth != null) {
-            return  stationName + " "  + depth;
+            return stationName + " " + depth;
         } else if (date != null) {
-            // Форматируем дату в соответствии с требуемым форматом "dd.MM.yyyy"
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-            return stationName + " "  + date.format(formatter);
+            return stationName + " " + date.format(formatter);
         } else {
-            return  stationName;
+            return stationName;
         }
     }
 

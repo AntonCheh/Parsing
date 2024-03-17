@@ -9,9 +9,24 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 
 public class JsonWriterCommon {
+
+    public static void main(String[] args) throws IOException {
+        List<Station> jsonStations = JsonParsing.getListofDateJsons();
+        List<Station> csvStations = CsvParsing.parseAndCollectStations();
+        List<Station> allStations = combineStations(jsonStations, csvStations);
+        writeStationsToJson(allStations, "output.json");
+    }
+
+    public static List<Station> combineStations(List<Station> jsonStations, List<Station> csvStations) {
+        List<Station> allStations = new ArrayList<>();
+        allStations.addAll(jsonStations);
+        allStations.addAll(csvStations);
+        return allStations;
+    }
 
     public static void writeStationsToJson(List<Station> stations, String filePath) {
         JsonArray stationsJsonArray = new JsonArray();
@@ -38,9 +53,9 @@ public class JsonWriterCommon {
         }
     }
 
-    public static void main(String[] args) throws IOException {
-        // Пример использования:
-        List<Station> stations = JsonParsing.getListofDateJsons();
-        writeStationsToJson(stations, "output.json");
-    }
+//    public static void main(String[] args) throws IOException {
+//        // Пример использования:
+//        List<Station> stations = JsonParsing.getListofDateJsons();
+//        writeStationsToJson(stations, "output.json");
+//    }
 }
