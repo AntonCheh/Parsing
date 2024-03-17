@@ -8,6 +8,24 @@ public class Station {
     public LocalDate date;
     private boolean hasTransfer;
 
+    private String lineName;
+
+    public void setStationName(String stationName) {
+        this.stationName = stationName;
+    }
+
+    public void setDepth(String depth) {
+        this.depth = depth;
+    }
+
+    public void setHasTransfer(boolean hasTransfer) {
+        this.hasTransfer = hasTransfer;
+    }
+
+    public void setLineName(String lineName) {
+        this.lineName = lineName;
+    }
+
     public Station(String stationName, boolean hasTransfer) {
         this.stationName = stationName;
         this.hasTransfer = hasTransfer;
