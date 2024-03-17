@@ -1,5 +1,5 @@
-import com.solidfire.gson.Gson;
-import com.solidfire.gson.GsonBuilder;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;

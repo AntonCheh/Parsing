@@ -9,10 +9,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class JsonParsing {
+    public static void main(String[] args) throws IOException {
+       // getListofDateJsons();
+    }
 
       public static List<Station> getListofDateJsons () throws IOException {
         FindFolder.walkAndPrintFiles(Path.of(FindFolder.pathOfFolder));
-          //        if (allStations != null) {
+//                  if (allStations != null) {
 //            printStations(allStations);
 //        } else {
 //            System.out.println("Не удалось распарсить JSON файлы.");

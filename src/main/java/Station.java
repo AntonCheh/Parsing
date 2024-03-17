@@ -3,9 +3,9 @@ import java.util.Objects;
 
 public class Station {
 
-    private String stationName;
+    public String stationName;
     private String depth;
-    private LocalDate date;
+    public LocalDate date;
     private boolean hasTransfer;
 
     public Station(String stationName, boolean hasTransfer) {
