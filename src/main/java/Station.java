@@ -1,8 +1,8 @@
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
 public class Station {
-
     public String stationName;
     private String depth;
     public LocalDate date;
@@ -12,8 +12,8 @@ public class Station {
         this.stationName = stationName;
         this.hasTransfer = hasTransfer;
     }
-    public boolean hasTransfer() {
 
+    public boolean hasTransfer() {
         return hasTransfer;
     }
 
@@ -48,7 +48,9 @@ public class Station {
         if (depth != null) {
             return  stationName + " "  + depth;
         } else if (date != null) {
-            return stationName + " "  + date;
+            // Форматируем дату в соответствии с требуемым форматом "dd.MM.yyyy"
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
+            return stationName + " "  + date.format(formatter);
         } else {
             return  stationName;
         }
@@ -68,6 +70,4 @@ public class Station {
     public int hashCode() {
         return Objects.hash(stationName, depth, date);
     }
-
-
 }

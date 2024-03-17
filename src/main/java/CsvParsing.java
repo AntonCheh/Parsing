@@ -8,14 +8,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CsvParsing {
-
     public static int count = 0;
 
     public static void main(String[] args) throws IOException {
 //        FindFolder.walkAndPrintFiles(Path.of(FindFolder.pathOfFolder));
 //        parseAndPrint(FindFolder.pathsOfCvs);
-
-
     }
 
     public static void parseAndPrint(List<String> filePath) {

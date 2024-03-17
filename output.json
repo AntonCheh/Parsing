@@ -1,0 +1,2530 @@
+{
+  "stations": [
+    {
+      "name": "Красные Ворота",
+      "date": "null",
+      "depth": "-31",
+      "hasConnection": false
+    },
+    {
+      "name": "Сухаревская",
+      "date": "null",
+      "depth": "-43",
+      "hasConnection": false
+    },
+    {
+      "name": "Тропарёво",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Нижегородская",
+      "date": "null",
+      "depth": "5",
+      "hasConnection": false
+    },
+    {
+      "name": "Новопеределкино",
+      "date": "null",
+      "depth": "-16",
+      "hasConnection": false
+    },
+    {
+      "name": "Академическая",
+      "date": "null",
+      "depth": "-8,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Арбатская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Окружная",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Киевская",
+      "date": "null",
+      "depth": "-8,7",
+      "hasConnection": false
+    },
+    {
+      "name": "Жулебино",
+      "date": "null",
+      "depth": "-15",
+      "hasConnection": false
+    },
+    {
+      "name": "Полянка",
+      "date": "null",
+      "depth": "-36,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Стрешнево",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Автозаводская",
+      "date": "null",
+      "depth": "-11",
+      "hasConnection": false
+    },
+    {
+      "name": "Кутузовская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Некрасовка",
+      "date": "null",
+      "depth": "-16",
+      "hasConnection": false
+    },
+    {
+      "name": "Деловой центр",
+      "date": "null",
+      "depth": "-30",
+      "hasConnection": false
+    },
+    {
+      "name": "Измайлово",
+      "date": "null",
+      "depth": "5",
+      "hasConnection": false
+    },
+    {
+      "name": "Новаторская",
+      "date": "null",
+      "depth": "-11",
+      "hasConnection": false
+    },
+    {
+      "name": "Каширская",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Нагатинская",
+      "date": "null",
+      "depth": "-13,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Строгино",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Люблино",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Петровско-Разумовская",
+      "date": "null",
+      "depth": "-61",
+      "hasConnection": false
+    },
+    {
+      "name": "Кропоткинская",
+      "date": "null",
+      "depth": "-13",
+      "hasConnection": false
+    },
+    {
+      "name": "Проспект Вернадского",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Солнцево",
+      "date": "null",
+      "depth": "-13",
+      "hasConnection": false
+    },
+    {
+      "name": "Охотный Ряд",
+      "date": "null",
+      "depth": "-15",
+      "hasConnection": false
+    },
+    {
+      "name": "Шоссе Энтузиастов",
+      "date": "null",
+      "depth": "5",
+      "hasConnection": false
+    },
+    {
+      "name": "Спартак",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Алтуфьево",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Народное Ополчение",
+      "date": "null",
+      "depth": "-28",
+      "hasConnection": false
+    },
+    {
+      "name": "Говорово",
+      "date": "null",
+      "depth": "-14",
+      "hasConnection": false
+    },
+    {
+      "name": "Бунинская аллея",
+      "date": "null",
+      "depth": "9,6",
+      "hasConnection": false
+    },
+    {
+      "name": "Международная",
+      "date": "null",
+      "depth": "-25",
+      "hasConnection": false
+    },
+    {
+      "name": "Битцевский парк",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Кожуховская",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Авиамоторная",
+      "date": "null",
+      "depth": "-53",
+      "hasConnection": false
+    },
+    {
+      "name": "Лесопарковая",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Окская",
+      "date": "null",
+      "depth": "?",
+      "hasConnection": false
+    },
+    {
+      "name": "Стахановская",
+      "date": "null",
+      "depth": "?",
+      "hasConnection": false
+    },
+    {
+      "name": "Телецентр",
+      "date": "null",
+      "depth": "6",
+      "hasConnection": false
+    },
+    {
+      "name": "Воронцовская",
+      "date": "null",
+      "depth": "-21",
+      "hasConnection": false
+    },
+    {
+      "name": "Шипиловская",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Ростокино",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Фили",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Шаболовская",
+      "date": "null",
+      "depth": "-46,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Парк культуры",
+      "date": "null",
+      "depth": "-40",
+      "hasConnection": false
+    },
+    {
+      "name": "Окружная",
+      "date": "null",
+      "depth": "-65",
+      "hasConnection": false
+    },
+    {
+      "name": "Лубянка",
+      "date": "null",
+      "depth": "-32,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Дубровка",
+      "date": "null",
+      "depth": "-62",
+      "hasConnection": false
+    },
+    {
+      "name": "Фрунзенская",
+      "date": "null",
+      "depth": "-42",
+      "hasConnection": false
+    },
+    {
+      "name": "Арбатская",
+      "date": "null",
+      "depth": "-41",
+      "hasConnection": false
+    },
+    {
+      "name": "Авиамоторная",
+      "date": "null",
+      "depth": "?",
+      "hasConnection": false
+    },
+    {
+      "name": "Добрынинская",
+      "date": "null",
+      "depth": "-35,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Бутырская",
+      "date": "null",
+      "depth": "-60",
+      "hasConnection": false
+    },
+    {
+      "name": "Кузьминки",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Бульвар Рокоссовского",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Южная",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Борисово",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Волгоградский проспект",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица Скобелевская",
+      "date": "null",
+      "depth": "9,6",
+      "hasConnection": false
+    },
+    {
+      "name": "Ленинский проспект",
+      "date": "null",
+      "depth": "-16",
+      "hasConnection": false
+    },
+    {
+      "name": "Коптево",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Партизанская",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица Милашенкова",
+      "date": "null",
+      "depth": "6",
+      "hasConnection": false
+    },
+    {
+      "name": "Сокол",
+      "date": "null",
+      "depth": "-9,6",
+      "hasConnection": false
+    },
+    {
+      "name": "Кузнецкий Мост",
+      "date": "null",
+      "depth": "-39,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Третьяковская",
+      "date": "null",
+      "depth": "-46",
+      "hasConnection": false
+    },
+    {
+      "name": "Волоколамская",
+      "date": "null",
+      "depth": "-14",
+      "hasConnection": false
+    },
+    {
+      "name": "Алма-Атинская",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Деловой центр",
+      "date": "null",
+      "depth": "7",
+      "hasConnection": false
+    },
+    {
+      "name": "Аэропорт",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Пушкинская",
+      "date": "null",
+      "depth": "-51",
+      "hasConnection": false
+    },
+    {
+      "name": "Котельники",
+      "date": "null",
+      "depth": "-15",
+      "hasConnection": false
+    },
+    {
+      "name": "Ховрино",
+      "date": "null",
+      "depth": "-14",
+      "hasConnection": false
+    },
+    {
+      "name": "Петровско-Разумовская",
+      "date": "null",
+      "depth": "-61",
+      "hasConnection": false
+    },
+    {
+      "name": "Нахимовский проспект",
+      "date": "null",
+      "depth": "-9,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Красносельская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Войковская",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Площадь Гагарина",
+      "date": "null",
+      "depth": "-5",
+      "hasConnection": false
+    },
+    {
+      "name": "Новые Черёмушки",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Планерная",
+      "date": "null",
+      "depth": "-6",
+      "hasConnection": false
+    },
+    {
+      "name": "Парк культуры",
+      "date": "null",
+      "depth": "-10,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Савёловская",
+      "date": "null",
+      "depth": "-52",
+      "hasConnection": false
+    },
+    {
+      "name": "Дубровка",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Ольховая",
+      "date": "null",
+      "depth": "?",
+      "hasConnection": false
+    },
+    {
+      "name": "Марьино",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Озёрная",
+      "date": "null",
+      "depth": "-25",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица Академика Янгеля",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица Академика Королёва",
+      "date": "null",
+      "depth": "12",
+      "hasConnection": false
+    },
+    {
+      "name": "Волжская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Рассказовка",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Октябрьская",
+      "date": "null",
+      "depth": "-40",
+      "hasConnection": false
+    },
+    {
+      "name": "Царицыно",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Беговая",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Беляево",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Дмитровская",
+      "date": "null",
+      "depth": "-59",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица Сергея Эйзенштейна",
+      "date": "null",
+      "depth": "6",
+      "hasConnection": false
+    },
+    {
+      "name": "Саларьево",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Павелецкая",
+      "date": "null",
+      "depth": "-33,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Братиславская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Таганская",
+      "date": "null",
+      "depth": "-53",
+      "hasConnection": false
+    },
+    {
+      "name": "Лефортово",
+      "date": "null",
+      "depth": "?",
+      "hasConnection": false
+    },
+    {
+      "name": "Панфиловская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Бибирево",
+      "date": "null",
+      "depth": "-9,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Марьина Роща",
+      "date": "null",
+      "depth": "-60",
+      "hasConnection": false
+    },
+    {
+      "name": "Тимирязевская",
+      "date": "null",
+      "depth": "6",
+      "hasConnection": false
+    },
+    {
+      "name": "Юго-Западная",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Юго-Восточная",
+      "date": "null",
+      "depth": "-20",
+      "hasConnection": false
+    },
+    {
+      "name": "Сходненская",
+      "date": "null",
+      "depth": "-6",
+      "hasConnection": false
+    },
+    {
+      "name": "Рязанский проспект",
+      "date": "null",
+      "depth": "-6",
+      "hasConnection": false
+    },
+    {
+      "name": "Белорусская",
+      "date": "null",
+      "depth": "-33,1",
+      "hasConnection": false
+    },
+    {
+      "name": "Римская",
+      "date": "null",
+      "depth": "-54",
+      "hasConnection": false
+    },
+    {
+      "name": "Варшавская",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Площадь Ильича",
+      "date": "null",
+      "depth": "-46",
+      "hasConnection": false
+    },
+    {
+      "name": "Домодедовская",
+      "date": "null",
+      "depth": "-9,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Каширская",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Бульвар Рокоссовского",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Чертановская",
+      "date": "null",
+      "depth": "-10,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Октябрьская",
+      "date": "null",
+      "depth": "-50",
+      "hasConnection": false
+    },
+    {
+      "name": "Таганская",
+      "date": "null",
+      "depth": "-36",
+      "hasConnection": false
+    },
+    {
+      "name": "Красносельская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Войковская",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Площадь Гагарина",
+      "date": "null",
+      "depth": "-5",
+      "hasConnection": false
+    },
+    {
+      "name": "Новые Черёмушки",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Планерная",
+      "date": "null",
+      "depth": "-6",
+      "hasConnection": false
+    },
+    {
+      "name": "Парк культуры",
+      "date": "null",
+      "depth": "-10,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Савёловская",
+      "date": "null",
+      "depth": "-52",
+      "hasConnection": false
+    },
+    {
+      "name": "Дубровка",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Ольховая",
+      "date": "null",
+      "depth": "?",
+      "hasConnection": false
+    },
+    {
+      "name": "Марьино",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Озёрная",
+      "date": "null",
+      "depth": "-25",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица Академика Янгеля",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица Академика Королёва",
+      "date": "null",
+      "depth": "12",
+      "hasConnection": false
+    },
+    {
+      "name": "Волжская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Рассказовка",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Октябрьская",
+      "date": "null",
+      "depth": "-40",
+      "hasConnection": false
+    },
+    {
+      "name": "Царицыно",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Беговая",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Беляево",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Дмитровская",
+      "date": "null",
+      "depth": "-59",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица Сергея Эйзенштейна",
+      "date": "null",
+      "depth": "6",
+      "hasConnection": false
+    },
+    {
+      "name": "Саларьево",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Павелецкая",
+      "date": "null",
+      "depth": "-33,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Братиславская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Таганская",
+      "date": "null",
+      "depth": "-53",
+      "hasConnection": false
+    },
+    {
+      "name": "Лефортово",
+      "date": "null",
+      "depth": "?",
+      "hasConnection": false
+    },
+    {
+      "name": "Панфиловская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Бибирево",
+      "date": "null",
+      "depth": "-9,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Марьина Роща",
+      "date": "null",
+      "depth": "-60",
+      "hasConnection": false
+    },
+    {
+      "name": "Тимирязевская",
+      "date": "null",
+      "depth": "6",
+      "hasConnection": false
+    },
+    {
+      "name": "Юго-Западная",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Юго-Восточная",
+      "date": "null",
+      "depth": "-20",
+      "hasConnection": false
+    },
+    {
+      "name": "Сходненская",
+      "date": "null",
+      "depth": "-6",
+      "hasConnection": false
+    },
+    {
+      "name": "Рязанский проспект",
+      "date": "null",
+      "depth": "-6",
+      "hasConnection": false
+    },
+    {
+      "name": "Белорусская",
+      "date": "null",
+      "depth": "-33,1",
+      "hasConnection": false
+    },
+    {
+      "name": "Римская",
+      "date": "null",
+      "depth": "-54",
+      "hasConnection": false
+    },
+    {
+      "name": "Варшавская",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Площадь Ильича",
+      "date": "null",
+      "depth": "-46",
+      "hasConnection": false
+    },
+    {
+      "name": "Домодедовская",
+      "date": "null",
+      "depth": "-9,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Каширская",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Бульвар Рокоссовского",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Чертановская",
+      "date": "null",
+      "depth": "-10,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Октябрьская",
+      "date": "null",
+      "depth": "-50",
+      "hasConnection": false
+    },
+    {
+      "name": "Таганская",
+      "date": "null",
+      "depth": "-36",
+      "hasConnection": false
+    },
+    {
+      "name": "Митино",
+      "date": "null",
+      "depth": "-14",
+      "hasConnection": false
+    },
+    {
+      "name": "Кунцевская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Калужская",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Соколиная Гора",
+      "date": "null",
+      "depth": "-5",
+      "hasConnection": false
+    },
+    {
+      "name": "Менделеевская",
+      "date": "null",
+      "depth": "-48,5",
+      "hasConnection": false
+    },
+    {
+      "name": "ВДНХ",
+      "date": "null",
+      "depth": "-53,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Выставочная",
+      "date": "null",
+      "depth": "-25",
+      "hasConnection": false
+    },
+    {
+      "name": "Профсоюзная",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Боровицкая",
+      "date": "null",
+      "depth": "-46,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Перово",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Спортивная",
+      "date": "null",
+      "depth": "-42",
+      "hasConnection": false
+    },
+    {
+      "name": "Ломоносовский проспект",
+      "date": "null",
+      "depth": "-15",
+      "hasConnection": false
+    },
+    {
+      "name": "Андроновка",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица Дмитриевского",
+      "date": "null",
+      "depth": "-18",
+      "hasConnection": false
+    },
+    {
+      "name": "Технопарк",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Кунцевская",
+      "date": "null",
+      "depth": "-31,2",
+      "hasConnection": false
+    },
+    {
+      "name": "Славянский бульвар",
+      "date": "null",
+      "depth": "-8,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Шоссе Энтузиастов",
+      "date": "null",
+      "depth": "-53",
+      "hasConnection": false
+    },
+    {
+      "name": "Раменки",
+      "date": "null",
+      "depth": "-15",
+      "hasConnection": false
+    },
+    {
+      "name": "Александровский сад",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Щёлковская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Кунцевская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Университет",
+      "date": "null",
+      "depth": "-26,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Марксистская",
+      "date": "null",
+      "depth": "-60",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица Горчакова",
+      "date": "null",
+      "depth": "9,6",
+      "hasConnection": false
+    },
+    {
+      "name": "Библиотека имени Ленина",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Отрадное",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Пражская",
+      "date": "null",
+      "depth": "-9,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Достоевская",
+      "date": "null",
+      "depth": "-60",
+      "hasConnection": false
+    },
+    {
+      "name": "Киевская",
+      "date": "null",
+      "depth": "-48",
+      "hasConnection": false
+    },
+    {
+      "name": "Мичуринский проспект",
+      "date": "null",
+      "depth": "-13",
+      "hasConnection": false
+    },
+    {
+      "name": "Нижегородская",
+      "date": "null",
+      "depth": "-21,8",
+      "hasConnection": false
+    },
+    {
+      "name": "Каховская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Медведково",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Мичуринский проспект",
+      "date": "null",
+      "depth": "-19",
+      "hasConnection": false
+    },
+    {
+      "name": "Курская",
+      "date": "null",
+      "depth": "-40",
+      "hasConnection": false
+    },
+    {
+      "name": "Багратионовская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Свиблово",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Лермонтовский проспект",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица 1905 года",
+      "date": "null",
+      "depth": "-11",
+      "hasConnection": false
+    },
+    {
+      "name": "Бульвар Дмитрия Донского",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Речной вокзал",
+      "date": "null",
+      "depth": "-6",
+      "hasConnection": false
+    },
+    {
+      "name": "Выставочный центр",
+      "date": "null",
+      "depth": "6",
+      "hasConnection": false
+    },
+    {
+      "name": "Краснопресненская",
+      "date": "null",
+      "depth": "-35,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Шелепиха",
+      "date": "null",
+      "depth": "-18",
+      "hasConnection": false
+    },
+    {
+      "name": "Новоясеневская",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Тушинская",
+      "date": "null",
+      "depth": "-10,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Щукинская",
+      "date": "null",
+      "depth": "-13",
+      "hasConnection": false
+    },
+    {
+      "name": "Косино",
+      "date": "null",
+      "depth": "-27",
+      "hasConnection": false
+    },
+    {
+      "name": "Крымская",
+      "date": "null",
+      "depth": "-3",
+      "hasConnection": false
+    },
+    {
+      "name": "Серпуховская",
+      "date": "null",
+      "depth": "-43",
+      "hasConnection": false
+    },
+    {
+      "name": "Алексеевская",
+      "date": "null",
+      "depth": "-51",
+      "hasConnection": false
+    },
+    {
+      "name": "Коммунарка",
+      "date": "null",
+      "depth": "?",
+      "hasConnection": false
+    },
+    {
+      "name": "Лухмановская",
+      "date": "null",
+      "depth": "-15",
+      "hasConnection": false
+    },
+    {
+      "name": "Новогиреево",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Полежаевская",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Электрозаводская",
+      "date": "null",
+      "depth": "-20",
+      "hasConnection": false
+    },
+    {
+      "name": "Румянцево",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Мякинино",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Третьяковская",
+      "date": "null",
+      "depth": "-46",
+      "hasConnection": false
+    },
+    {
+      "name": "ЗИЛ",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Чистые пруды",
+      "date": "null",
+      "depth": "-35",
+      "hasConnection": false
+    },
+    {
+      "name": "Зорге",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Красногвардейская",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Угрешская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Тульская",
+      "date": "null",
+      "depth": "-9,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Тургеневская",
+      "date": "null",
+      "depth": "-49",
+      "hasConnection": false
+    },
+    {
+      "name": "Трубная",
+      "date": "null",
+      "depth": "-60",
+      "hasConnection": false
+    },
+    {
+      "name": "Новослободская",
+      "date": "null",
+      "depth": "-40",
+      "hasConnection": false
+    },
+    {
+      "name": "Минская",
+      "date": "null",
+      "depth": "-15",
+      "hasConnection": false
+    },
+    {
+      "name": "Текстильщики",
+      "date": "null",
+      "depth": "-13",
+      "hasConnection": false
+    },
+    {
+      "name": "Филатов Луг",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Мнёвники",
+      "date": "null",
+      "depth": "-27",
+      "hasConnection": false
+    },
+    {
+      "name": "Тёплый Стан",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Павелецкая",
+      "date": "null",
+      "depth": "-40",
+      "hasConnection": false
+    },
+    {
+      "name": "Проспект Вернадского",
+      "date": "null",
+      "depth": "-16",
+      "hasConnection": false
+    },
+    {
+      "name": "Верхние Котлы",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Тверская",
+      "date": "null",
+      "depth": "-42",
+      "hasConnection": false
+    },
+    {
+      "name": "Фонвизинская",
+      "date": "null",
+      "depth": "-65",
+      "hasConnection": false
+    },
+    {
+      "name": "Локомотив",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Семёновская",
+      "date": "null",
+      "depth": "-40",
+      "hasConnection": false
+    },
+    {
+      "name": "Хорошёво",
+      "date": "null",
+      "depth": "5",
+      "hasConnection": false
+    },
+    {
+      "name": "Выхино",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Новокосино",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Петровский парк",
+      "date": "null",
+      "depth": "-25",
+      "hasConnection": false
+    },
+    {
+      "name": "Измайловская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Парк Победы",
+      "date": "null",
+      "depth": "-73,6",
+      "hasConnection": false
+    },
+    {
+      "name": "Беломорская",
+      "date": "null",
+      "depth": "-18",
+      "hasConnection": false
+    },
+    {
+      "name": "Рижская",
+      "date": "null",
+      "depth": "-46",
+      "hasConnection": false
+    },
+    {
+      "name": "Шелепиха",
+      "date": "null",
+      "depth": "5",
+      "hasConnection": false
+    },
+    {
+      "name": "Чкаловская",
+      "date": "null",
+      "depth": "-51",
+      "hasConnection": false
+    },
+    {
+      "name": "Сокольники",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Киевская",
+      "date": "null",
+      "depth": "-38",
+      "hasConnection": false
+    },
+    {
+      "name": "Лихоборы",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Новокузнецкая",
+      "date": "null",
+      "depth": "-37,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Бульвар Адмирала Ушакова",
+      "date": "null",
+      "depth": "9,6",
+      "hasConnection": false
+    },
+    {
+      "name": "Парк Победы",
+      "date": "null",
+      "depth": "-73,6",
+      "hasConnection": false
+    },
+    {
+      "name": "Новохохловская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Комсомольская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Сретенский бульвар",
+      "date": "null",
+      "depth": "-60",
+      "hasConnection": false
+    },
+    {
+      "name": "Печатники",
+      "date": "null",
+      "depth": "-5",
+      "hasConnection": false
+    },
+    {
+      "name": "Смоленская",
+      "date": "null",
+      "depth": "-50",
+      "hasConnection": false
+    },
+    {
+      "name": "Аминьевская",
+      "date": "null",
+      "depth": "-14",
+      "hasConnection": false
+    },
+    {
+      "name": "Белокаменная",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Филёвский парк",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Тимирязевская",
+      "date": "null",
+      "depth": "-63,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Боровское шоссе",
+      "date": "null",
+      "depth": "-20",
+      "hasConnection": false
+    },
+    {
+      "name": "Пролетарская",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Давыдково",
+      "date": "null",
+      "depth": "-33",
+      "hasConnection": false
+    },
+    {
+      "name": "Проспект Мира",
+      "date": "null",
+      "depth": "-40",
+      "hasConnection": false
+    },
+    {
+      "name": "Коньково",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Владыкино",
+      "date": "null",
+      "depth": "-10,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Комсомольская",
+      "date": "null",
+      "depth": "-37",
+      "hasConnection": false
+    },
+    {
+      "name": "Ботанический сад",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Черкизовская",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Верхние Лихоборы",
+      "date": "null",
+      "depth": "-65",
+      "hasConnection": false
+    },
+    {
+      "name": "Курская",
+      "date": "null",
+      "depth": "-30,7",
+      "hasConnection": false
+    },
+    {
+      "name": "Ботанический сад",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Нагорная",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Октябрьское Поле",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Чеховская",
+      "date": "null",
+      "depth": "-62",
+      "hasConnection": false
+    },
+    {
+      "name": "Владыкино",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Воробьёвы горы",
+      "date": "null",
+      "depth": "10",
+      "hasConnection": false
+    },
+    {
+      "name": "Хорошёвская",
+      "date": "null",
+      "depth": "-21",
+      "hasConnection": false
+    },
+    {
+      "name": "Пятницкое шоссе",
+      "date": "null",
+      "depth": "-11",
+      "hasConnection": false
+    },
+    {
+      "name": "Электрозаводская",
+      "date": "null",
+      "depth": "-31,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Аннино",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Смоленская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Кантемировская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Студенческая",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Ясенево",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Баррикадная",
+      "date": "null",
+      "depth": "-30",
+      "hasConnection": false
+    },
+    {
+      "name": "Балтийская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Автозаводская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Зябликово",
+      "date": "null",
+      "depth": "-15",
+      "hasConnection": false
+    },
+    {
+      "name": "Проспект Мира",
+      "date": "null",
+      "depth": "-50",
+      "hasConnection": false
+    },
+    {
+      "name": "Белорусская",
+      "date": "null",
+      "depth": "-42,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Театральная",
+      "date": "null",
+      "depth": "-33,9",
+      "hasConnection": false
+    },
+    {
+      "name": "Кутузовская",
+      "date": "null",
+      "depth": "-5",
+      "hasConnection": false
+    },
+    {
+      "name": "Терехово",
+      "date": "null",
+      "depth": "-22",
+      "hasConnection": false
+    },
+    {
+      "name": "Китай-город",
+      "date": "null",
+      "depth": "-29",
+      "hasConnection": false
+    },
+    {
+      "name": "Китай-город",
+      "date": "null",
+      "depth": "-29",
+      "hasConnection": false
+    },
+    {
+      "name": "Лужники",
+      "date": "null",
+      "depth": "5",
+      "hasConnection": false
+    },
+    {
+      "name": "Селигерская",
+      "date": "null",
+      "depth": "-20",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица Старокачаловская",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Крестьянская застава",
+      "date": "null",
+      "depth": "-47",
+      "hasConnection": false
+    },
+    {
+      "name": "Площадь Революции",
+      "date": "null",
+      "depth": "-33,6",
+      "hasConnection": false
+    },
+    {
+      "name": "Водный стадион",
+      "date": "null",
+      "depth": "-6",
+      "hasConnection": false
+    },
+    {
+      "name": "Цветной бульвар",
+      "date": "null",
+      "depth": "-50",
+      "hasConnection": false
+    },
+    {
+      "name": "Пионерская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Деловой центр",
+      "date": "null",
+      "depth": "-30",
+      "hasConnection": false
+    },
+    {
+      "name": "Динамо",
+      "date": "null",
+      "depth": "-39,6",
+      "hasConnection": false
+    },
+    {
+      "name": "ЦСКА",
+      "date": "null",
+      "depth": "-28",
+      "hasConnection": false
+    },
+    {
+      "name": "Бабушкинская",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Савёловская",
+      "date": "null",
+      "depth": "-65",
+      "hasConnection": false
+    },
+    {
+      "name": "Зюзино",
+      "date": "null",
+      "depth": "-17,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Севастопольская",
+      "date": "null",
+      "depth": "-13",
+      "hasConnection": false
+    },
+    {
+      "name": "Орехово",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Крылатское",
+      "date": "null",
+      "depth": "-9,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Маяковская",
+      "date": "null",
+      "depth": "-33,1",
+      "hasConnection": false
+    },
+    {
+      "name": "Коломенская",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Преображенская площадь",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Молодёжная",
+      "date": "null",
+      "depth": "-6,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Бауманская",
+      "date": "null",
+      "depth": "-32,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Первомайская",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Прокшино",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Митино",
+      "date": "null",
+      "depth": "-14",
+      "hasConnection": false
+    },
+    {
+      "name": "Кунцевская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Калужская",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Соколиная Гора",
+      "date": "null",
+      "depth": "-5",
+      "hasConnection": false
+    },
+    {
+      "name": "Менделеевская",
+      "date": "null",
+      "depth": "-48,5",
+      "hasConnection": false
+    },
+    {
+      "name": "ВДНХ",
+      "date": "null",
+      "depth": "-53,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Выставочная",
+      "date": "null",
+      "depth": "-25",
+      "hasConnection": false
+    },
+    {
+      "name": "Профсоюзная",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Боровицкая",
+      "date": "null",
+      "depth": "-46,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Перово",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Спортивная",
+      "date": "null",
+      "depth": "-42",
+      "hasConnection": false
+    },
+    {
+      "name": "Ломоносовский проспект",
+      "date": "null",
+      "depth": "-15",
+      "hasConnection": false
+    },
+    {
+      "name": "Андроновка",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица Дмитриевского",
+      "date": "null",
+      "depth": "-18",
+      "hasConnection": false
+    },
+    {
+      "name": "Технопарк",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Кунцевская",
+      "date": "null",
+      "depth": "-31,2",
+      "hasConnection": false
+    },
+    {
+      "name": "Славянский бульвар",
+      "date": "null",
+      "depth": "-8,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Шоссе Энтузиастов",
+      "date": "null",
+      "depth": "-53",
+      "hasConnection": false
+    },
+    {
+      "name": "Раменки",
+      "date": "null",
+      "depth": "-15",
+      "hasConnection": false
+    },
+    {
+      "name": "Александровский сад",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Щёлковская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Кунцевская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Университет",
+      "date": "null",
+      "depth": "-26,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Марксистская",
+      "date": "null",
+      "depth": "-60",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица Горчакова",
+      "date": "null",
+      "depth": "9,6",
+      "hasConnection": false
+    },
+    {
+      "name": "Библиотека имени Ленина",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Отрадное",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Пражская",
+      "date": "null",
+      "depth": "-9,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Достоевская",
+      "date": "null",
+      "depth": "-60",
+      "hasConnection": false
+    },
+    {
+      "name": "Киевская",
+      "date": "null",
+      "depth": "-48",
+      "hasConnection": false
+    },
+    {
+      "name": "Мичуринский проспект",
+      "date": "null",
+      "depth": "-13",
+      "hasConnection": false
+    },
+    {
+      "name": "Нижегородская",
+      "date": "null",
+      "depth": "-21,8",
+      "hasConnection": false
+    },
+    {
+      "name": "Каховская",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Медведково",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Мичуринский проспект",
+      "date": "null",
+      "depth": "-19",
+      "hasConnection": false
+    },
+    {
+      "name": "Курская",
+      "date": "null",
+      "depth": "-40",
+      "hasConnection": false
+    },
+    {
+      "name": "Багратионовская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Свиблово",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Лермонтовский проспект",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Улица 1905 года",
+      "date": "null",
+      "depth": "-11",
+      "hasConnection": false
+    },
+    {
+      "name": "Бульвар Дмитрия Донского",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Речной вокзал",
+      "date": "null",
+      "depth": "-6",
+      "hasConnection": false
+    },
+    {
+      "name": "Выставочный центр",
+      "date": "null",
+      "depth": "6",
+      "hasConnection": false
+    },
+    {
+      "name": "Краснопресненская",
+      "date": "null",
+      "depth": "-35,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Шелепиха",
+      "date": "null",
+      "depth": "-18",
+      "hasConnection": false
+    },
+    {
+      "name": "Новоясеневская",
+      "date": "null",
+      "depth": "-7",
+      "hasConnection": false
+    },
+    {
+      "name": "Тушинская",
+      "date": "null",
+      "depth": "-10,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Щукинская",
+      "date": "null",
+      "depth": "-13",
+      "hasConnection": false
+    },
+    {
+      "name": "Косино",
+      "date": "null",
+      "depth": "-27",
+      "hasConnection": false
+    },
+    {
+      "name": "Крымская",
+      "date": "null",
+      "depth": "-3",
+      "hasConnection": false
+    },
+    {
+      "name": "Серпуховская",
+      "date": "null",
+      "depth": "-43",
+      "hasConnection": false
+    },
+    {
+      "name": "Алексеевская",
+      "date": "null",
+      "depth": "-51",
+      "hasConnection": false
+    },
+    {
+      "name": "Коммунарка",
+      "date": "null",
+      "depth": "?",
+      "hasConnection": false
+    },
+    {
+      "name": "Лухмановская",
+      "date": "null",
+      "depth": "-15",
+      "hasConnection": false
+    },
+    {
+      "name": "Новогиреево",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Полежаевская",
+      "date": "null",
+      "depth": "-10",
+      "hasConnection": false
+    },
+    {
+      "name": "Электрозаводская",
+      "date": "null",
+      "depth": "-20",
+      "hasConnection": false
+    },
+    {
+      "name": "Румянцево",
+      "date": "null",
+      "depth": "-12",
+      "hasConnection": false
+    },
+    {
+      "name": "Мякинино",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Третьяковская",
+      "date": "null",
+      "depth": "-46",
+      "hasConnection": false
+    },
+    {
+      "name": "ЗИЛ",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Чистые пруды",
+      "date": "null",
+      "depth": "-35",
+      "hasConnection": false
+    },
+    {
+      "name": "Зорге",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Красногвардейская",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Угрешская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Тульская",
+      "date": "null",
+      "depth": "-9,5",
+      "hasConnection": false
+    },
+    {
+      "name": "Тургеневская",
+      "date": "null",
+      "depth": "-49",
+      "hasConnection": false
+    },
+    {
+      "name": "Трубная",
+      "date": "null",
+      "depth": "-60",
+      "hasConnection": false
+    },
+    {
+      "name": "Новослободская",
+      "date": "null",
+      "depth": "-40",
+      "hasConnection": false
+    },
+    {
+      "name": "Минская",
+      "date": "null",
+      "depth": "-15",
+      "hasConnection": false
+    },
+    {
+      "name": "Текстильщики",
+      "date": "null",
+      "depth": "-13",
+      "hasConnection": false
+    },
+    {
+      "name": "Филатов Луг",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Мнёвники",
+      "date": "null",
+      "depth": "-27",
+      "hasConnection": false
+    },
+    {
+      "name": "Тёплый Стан",
+      "date": "null",
+      "depth": "-8",
+      "hasConnection": false
+    },
+    {
+      "name": "Павелецкая",
+      "date": "null",
+      "depth": "-40",
+      "hasConnection": false
+    },
+    {
+      "name": "Проспект Вернадского",
+      "date": "null",
+      "depth": "-16",
+      "hasConnection": false
+    },
+    {
+      "name": "Верхние Котлы",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Тверская",
+      "date": "null",
+      "depth": "-42",
+      "hasConnection": false
+    },
+    {
+      "name": "Фонвизинская",
+      "date": "null",
+      "depth": "-65",
+      "hasConnection": false
+    },
+    {
+      "name": "Локомотив",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Семёновская",
+      "date": "null",
+      "depth": "-40",
+      "hasConnection": false
+    },
+    {
+      "name": "Хорошёво",
+      "date": "null",
+      "depth": "5",
+      "hasConnection": false
+    },
+    {
+      "name": "Выхино",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Новокосино",
+      "date": "null",
+      "depth": "-9",
+      "hasConnection": false
+    },
+    {
+      "name": "Петровский парк",
+      "date": "null",
+      "depth": "-25",
+      "hasConnection": false
+    },
+    {
+      "name": "Измайловская",
+      "date": "null",
+      "depth": "0",
+      "hasConnection": false
+    },
+    {
+      "name": "Парк Победы",
+      "date": "null",
+      "depth": "-73,6",
+      "hasConnection": false
+    },
+    {
+      "name": "Беломорская",
+      "date": "null",
+      "depth": "-18",
+      "hasConnection": false
+    },
+    {
+      "name": "Рижская",
+      "date": "null",
+      "depth": "-46",
+      "hasConnection": false
+    },
+    {
+      "name": "Шелепиха",
+      "date": "null",
+      "depth": "5",
+      "hasConnection": false
+    }
+  ]
+}
