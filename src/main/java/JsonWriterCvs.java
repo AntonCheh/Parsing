@@ -10,10 +10,10 @@ public class JsonWriterCvs {
 
     public static void main(String[] args) {
         // Парсим CSV файлы и получаем список объектов Station
-//        List<Station> stations = CsvParsing.parseAndCollectStations();
-//
-//        // Записываем список объектов Station в JSON файл
-//        writeStationsToJson(stations, "output22.json");
+        List<Station> stations = CsvParsing.parseAndCollectStations();
+
+        // Записываем список объектов Station в JSON файл
+        writeStationsToJson(stations, "cvsWriter.json");
     }
 
     public static void writeStationsToJson(List<Station> stations, String filePath) {

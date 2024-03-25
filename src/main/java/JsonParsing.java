@@ -9,17 +9,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class JsonParsing {
+    public static int count = 0;
     public static void main(String[] args) throws IOException {
-       // getListofDateJsons();
+       List<Station> stations = getListofDateJsons();
+
+        for (Station station : stations) {
+            System.out.println(station);
+        }
     }
 
       public static List<Station> getListofDateJsons () throws IOException {
         FindFolder.walkAndPrintFiles(Path.of(FindFolder.pathOfFolder));
-//                  if (allStations != null) {
-//            printStations(allStations);
-//        } else {
-//            System.out.println("Не удалось распарсить JSON файлы.");
-//        }
           return parseJsonFile(FindFolder.pathsOfJsons);
       }
 
@@ -43,7 +43,6 @@ public class JsonParsing {
                 ex.printStackTrace();
             }
         }
-
         return allStations;
     }
 
@@ -71,5 +70,4 @@ public class JsonParsing {
             System.out.println();
         });
     }
-
 }

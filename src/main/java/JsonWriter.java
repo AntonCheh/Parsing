@@ -33,7 +33,7 @@ public class JsonWriter {
 
     public static void main(String[] args) throws IOException {
         // Пример использования:
-//        List<Station> stations = JsonParsing.getListofDateJsons();
-//        writeStationsToJson(stations, "output.json");
+        List<Station> stations = JsonParsing.getListofDateJsons();
+        writeStationsToJson(stations, "jsonWriter.json");
     }
 }

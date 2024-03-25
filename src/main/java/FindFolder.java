@@ -21,7 +21,7 @@ public class FindFolder {
         System.out.println(pathsOfCvs);
     }
 
-    public static void walkAndPrintFiles(Path directory) throws IOException {
+    public static List<String> walkAndPrintFiles(Path directory) throws IOException {
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(directory)) {
             for (Path path : stream) {
                 if (Files.isDirectory(path)) {
@@ -31,6 +31,7 @@ public class FindFolder {
                 }
             }
         }
+        return null;
     }
 
     private static void printFileInfo(Path file) {
