@@ -8,10 +8,10 @@ import java.util.List;
 public class JsonWriteFromHTML {
 
     public static void main(String[] args) {
-        List<String> lineNames = WebParsingHtmlLines.parseAndReturnLineNames();
-        List<Line> lines = WebParsingHtmlStations.parseWebStations();
+        //List<String> lineNames = WebParsingHtmlLines.parseAndReturnLineNames();
+        //List<Line> lines = WebParsingHtmlStations.parseWebStations();
 
-        writeLinesAndStationsToJson(lineNames, lines, "html.json");
+       // writeLinesAndStationsToJson(lineNames, lines, "html.json");
     }
 
     public static void writeLinesAndStationsToJson(List<String> lineNames, List<Line> lines, String filePath) {

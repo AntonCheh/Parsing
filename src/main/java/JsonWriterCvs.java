@@ -8,7 +8,7 @@ import java.util.List;
 
 public class JsonWriterCvs {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // Парсим CSV файлы и получаем список объектов Station
         List<Station> stations = CsvParsing.parseAndCollectStations();
 

@@ -1,5 +1,6 @@
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 
@@ -13,38 +14,41 @@ import java.util.List;
 public class WebParsingHtmlLines {
 
     public static void main(String[] args) {
-        List<String> lineNames = parseAndReturnLineNames();
+        List<String> lineAndStationNames = parseAndReturnLineAndStationNames();
 
-        for (String line : lineNames) {
-            System.out.println(line);
+        for (String name : lineAndStationNames) {
+            System.out.println(name);
         }
     }
 
-    public static List<String> parseAndReturnLineNames() {
-        List<String> lineNames = new ArrayList<>();
+    public static List<String> parseAndReturnLineAndStationNames() {
+        List<String> lineAndStationNames = new ArrayList<>();
 
-        String htmlFile = parseFile(Path.of("data/code.html"));
-        Document document = Jsoup.parse(htmlFile);
-        Elements elements = document.select("div.js-toggle-depend");
-
-        elements.forEach(element -> {
-            String lineName = element.select("span.js-metro-line").text();
-            lineNames.add(lineName);
-        });
-
-        return lineNames;
-    }
-
-    private static String parseFile(Path path) {
-        StringBuilder builder = new StringBuilder();
         try {
-            List<String> lines = Files.readAllLines(Paths.get(String.valueOf(path)));
-            lines.forEach(line -> builder.append(line).append("\n"));
-        } catch (Exception e) {
+            // Чтение HTML-файла
+            String htmlContent = Files.readString(Path.of("data/code.html"));
+
+            // Парсинг HTML с помощью Jsoup
+            Document document = Jsoup.parse(htmlContent);
+            Elements lineElements = document.select("div.js-toggle-depend");
+
+            // Извлечение названий линий и станций
+            lineElements.forEach(lineElement -> {
+                String lineName = lineElement.select("span.js-metro-line").text();
+
+                // Получаем список станций на данной линии
+                Elements stationElements = lineElement.nextElementSibling().select("p.single-station");
+
+                // Добавляем название линии к каждой станции на этой линии
+                for (Element stationElement : stationElements) {
+                    String stationName = stationElement.select("span.name").text();
+                    lineAndStationNames.add(stationName + " line: " + lineName); // Добавляем название линии
+                }
+            });
+        } catch (IOException e) {
             e.printStackTrace();
         }
-        return builder.toString();
+
+        return lineAndStationNames;
     }
 }
-
-
