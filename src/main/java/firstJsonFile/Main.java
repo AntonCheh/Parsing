@@ -62,7 +62,6 @@ public class Main {
                 });
             }
         }
-
         // Добавляем информацию о наличии пересадок
         stationMap.forEach((stationName, hasConnection) ->
                 mergedInfo.computeIfPresent(stationName, (key, existingInfo) -> {
@@ -70,7 +69,6 @@ public class Main {
                     return existingInfo;
                 })
         );
-
         return mergedInfo;
     }
 
@@ -106,7 +104,6 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return stationMap;
     }
 }

@@ -5,6 +5,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
 public class Station {
+    private String lineNumber;
     public String stationName;
     private String depth;
     public LocalDate buildDate;
@@ -23,12 +24,11 @@ public class Station {
         this.hasTransfer = hasTransfer;
     }
 
-    public Station(String stationName,  boolean hasTransfer) {
+
+    public Station(String stationName, String lineNumber,  boolean hasTransfer) {
         this.stationName = stationName;
         this.hasTransfer = hasTransfer;
-    }
-    public boolean hasTransfer() {
-        return hasTransfer;
+        this.lineNumber = lineNumber;
     }
 
     public Station(String stationName, String depth) {
@@ -40,6 +40,17 @@ public class Station {
         this.stationName = stationName;
         this.buildDate = date;
     }
+
+    public Station(String stationName,  boolean hasTransfer) {
+        this.stationName = stationName;
+        this.hasTransfer = hasTransfer;
+    }
+
+    public boolean hasTransfer() {
+        return hasTransfer;
+    }
+
+
 
     public String getStationName() {
         return stationName;
@@ -63,6 +74,14 @@ public class Station {
 
     public void setLine(String line) {
         this.line = line;
+    }
+
+    public String getLineNumber() {
+        return lineNumber;
+    }
+
+    public void setLineNumber(String lineNumber) {
+        this.lineNumber = lineNumber;
     }
 
     @Override

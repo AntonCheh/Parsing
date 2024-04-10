@@ -35,7 +35,6 @@ public class JsonWriter {
 
         // Добавляем массив станций в JSON объект
         jsonObject.add("stations", stationsArray);
-
         // Записываем JSON объект в файл
         try (FileWriter fileWriter = new FileWriter(filePath)) {
             gson.toJson(jsonObject, fileWriter);
