@@ -2,6 +2,8 @@ package firstJsonFile;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
@@ -16,41 +18,36 @@ import java.util.Map;
 
 public class JsonWriter {
 
-    public static void main(String[] args) {
-
-    }
-
-
     public static void writeToJsonFile(Map<String, StationInfo> mergedInfo, String filePath) {
+        // Создаем новый объект Gson с красивым форматированием
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        JsonObject jsonObject = new JsonObject();
 
-        Gson gson = new GsonBuilder()
-                .registerTypeAdapter(LocalDate.class, new LocalDateAdapter())
-                .setPrettyPrinting()
-                .create();
+        // Создаем массив для станций
+        JsonArray stationsArray = new JsonArray();
 
-        StationsContainer stationsContainer = new StationsContainer();
+        // Проходимся по объединенной информации и добавляем каждую станцию в массив
         for (Map.Entry<String, StationInfo> entry : mergedInfo.entrySet()) {
+            JsonObject stationObject = new JsonObject();
             StationInfo stationInfo = entry.getValue();
-            Station station = new Station(entry.getKey(), stationInfo.getLine(), stationInfo.getBuildDate(), stationInfo.getDepth(), stationInfo.isHasConnection());
-            stationsContainer.addStation(station);
+
+            stationObject.addProperty("name", entry.getKey());
+            stationObject.addProperty("line", stationInfo.getLine());
+            stationObject.addProperty("date", stationInfo.getBuildDate() != null ? stationInfo.getBuildDate().toString() : "");
+            stationObject.addProperty("depth", stationInfo.getDepth());
+            stationObject.addProperty("hasConnection", stationInfo.isHasConnection());
+
+            stationsArray.add(stationObject);
         }
 
-        try (FileWriter writer = new FileWriter(filePath)) {
-            gson.toJson(stationsContainer, writer);
+        // Добавляем массив станций в JSON объект
+        jsonObject.add("stations", stationsArray);
+
+        // Записываем JSON объект в файл
+        try (FileWriter fileWriter = new FileWriter(filePath)) {
+            gson.toJson(jsonObject, fileWriter);
         } catch (IOException e) {
             e.printStackTrace();
-        }
-    }
-
-    private static class StationsContainer {
-        private List<Station> stations;
-
-        public StationsContainer() {
-            this.stations = new ArrayList<>();
-        }
-
-        public void addStation(Station station) {
-            stations.add(station);
         }
     }
 }

@@ -5,7 +5,6 @@ import java.util.Objects;
 
 public class StationInfo {
 
-
     private LocalDate buildDate;
     private String depth;
     private String line;
