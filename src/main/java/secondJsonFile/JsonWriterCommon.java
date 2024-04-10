@@ -30,7 +30,7 @@ public class JsonWriterCommon {
 
         for (Station station : csvStations) {
             Station stationMap = stringStationMap.get(station.getStationName());
-            stationMap.setDate(station.getDate());
+            stationMap.setBuildDate(station.getBuildDate());
             stringStationMap.put(stationMap.getStationName(), stationMap);
         }
         List<Station> allStations = new ArrayList<>(stringStationMap.values());
@@ -45,7 +45,7 @@ public class JsonWriterCommon {
         for (Station station : stations) {
             JsonObject stationJson = new JsonObject();
             stationJson.addProperty("name", station.getStationName());
-            stationJson.addProperty("date", String.valueOf(station.getDate()));
+            stationJson.addProperty("date", String.valueOf(station.getBuildDate()));
             stationJson.addProperty("depth", station.getDepth());
             stationJson.addProperty("hasConnection", station.hasTransfer());
 

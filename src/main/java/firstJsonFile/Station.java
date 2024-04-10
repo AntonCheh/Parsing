@@ -7,10 +7,9 @@ import java.util.Objects;
 public class Station {
     public String stationName;
     private String depth;
-    public LocalDate date;
+    public LocalDate buildDate;
+    private String line;
     private boolean hasTransfer;
-
-    private String lineName;
 
     public void setStationName(String stationName) {
         this.stationName = stationName;
@@ -24,15 +23,10 @@ public class Station {
         this.hasTransfer = hasTransfer;
     }
 
-    public void setLineName(String lineName) {
-        this.lineName = lineName;
-    }
-
-    public Station(String stationName, String line, LocalDate buildDate, String depth, boolean hasTransfer) {
+    public Station(String stationName,  boolean hasTransfer) {
         this.stationName = stationName;
         this.hasTransfer = hasTransfer;
     }
-
     public boolean hasTransfer() {
         return hasTransfer;
     }
@@ -44,7 +38,7 @@ public class Station {
 
     public Station(String stationName, LocalDate date) {
         this.stationName = stationName;
-        this.date = date;
+        this.buildDate = date;
     }
 
     public String getStationName() {
@@ -55,21 +49,29 @@ public class Station {
         return depth;
     }
 
-    public LocalDate getDate() {
-        return date;
+    public LocalDate getBuildDate() {
+        return buildDate;
     }
 
-    public void setDate(LocalDate date) {
-        this.date = date;
+    public void setBuildDate(LocalDate buildDate) {
+        this.buildDate = buildDate;
+    }
+
+    public String getLine() {
+        return line;
+    }
+
+    public void setLine(String line) {
+        this.line = line;
     }
 
     @Override
     public String toString() {
         if (depth != null) {
             return stationName + " " + depth;
-        } else if (date != null) {
+        } else if (buildDate != null) {
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-            return stationName + " " + date.format(formatter);
+            return stationName + " " + buildDate.format(formatter);
         } else {
             return stationName;
         }
@@ -82,11 +84,11 @@ public class Station {
         Station station = (Station) o;
         return Objects.equals(stationName, station.stationName) &&
                 Objects.equals(depth, station.depth) &&
-                Objects.equals(date, station.date);
+                Objects.equals(buildDate, station.buildDate);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(stationName, depth, date);
+        return Objects.hash(stationName, depth, buildDate);
     }
 }
