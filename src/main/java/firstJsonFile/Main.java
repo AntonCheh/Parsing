@@ -24,9 +24,9 @@ public class Main {
         Map<String, Station> mergedInfo = mergeStationsInfo(jsonStations, csvStations, lineAndStationNames, stationMap);
 
         // Выводим объединенную информацию
-      printMergedInfo(mergedInfo);
+     // printMergedInfo(mergedInfo);
 
-   //   JsonWriter.writeToJsonFile(mergedInfo, "merged_info.json");
+      JsonWriter.writeToJsonFile(mergedInfo, "merged_info.json");
     }
 
     public static Map<String, Station> mergeStationsInfo(List<Station> jsonStations, List<Station> csvStations,

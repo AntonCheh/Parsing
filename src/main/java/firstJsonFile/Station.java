@@ -1,8 +1,16 @@
 package firstJsonFile;
 
+
+
+import SecondJsonFile.Connection;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
 import java.util.Objects;
+
+
+
 
 public class Station {
     private String lineNumber;
@@ -11,6 +19,20 @@ public class Station {
     public LocalDate buildDate;
     private String line;
     private boolean hasTransfer;
+    private String name;
+
+    public Station(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 
     public void setStationName(String stationName) {
         this.stationName = stationName;
@@ -84,6 +106,7 @@ public class Station {
         this.lineNumber = lineNumber;
     }
 
+
     @Override
     public String toString() {
         if (depth != null) {
@@ -110,4 +133,6 @@ public class Station {
     public int hashCode() {
         return Objects.hash(stationName, depth, buildDate);
     }
+
+
 }

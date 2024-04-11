@@ -4,12 +4,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MetroLine {
+    private String number;
     private String name;
-    private List<MetroStation> stations;
 
-    public MetroLine(String name) {
+    public MetroLine(String number, String name) {
+        this.number = number;
         this.name = name;
-        this.stations = new ArrayList<>();
+
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
     }
 
     public String getName() {
@@ -20,15 +29,6 @@ public class MetroLine {
         this.name = name;
     }
 
-    public List<MetroStation> getStations() {
-        return stations;
-    }
 
-    public void setStations(List<MetroStation> stations) {
-        this.stations = stations;
-    }
-
-    public void addStation(MetroStation station) {
-        stations.add(station);
-    }
 }
+
